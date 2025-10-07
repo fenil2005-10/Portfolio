@@ -1,0 +1,86 @@
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #000;
+    text-align: left;
+    padding: 1rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+main {
+    background-image: "";
+}
+body{
+    background-color: rgb(255, 243, 228);
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #c9c9c9;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: fixed;
+    text-align: center;
+}
+main{
+    padding:4rem 2rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.photo{
+    flex:1;
+    padding: 0 2rem;
+
+}
+
+.photo img{
+    height: 250px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.about{
+  flex: 2;
+}
+h3 {
+    text-align: left;
+}
+p {
+    text-align: left;
+}
+table{
+    
+    border-collapse: collapse;
+    height: 70px;
+    width: 80px;
+}
+td,th {
+border: 1px solid black;
+margin: 10px 0;
+padding:10px;
+height: 30px;
+    width: 80px;
+}
+header,h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-top: 12rem;
+    color: white;
+}
